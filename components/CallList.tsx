@@ -1,5 +1,3 @@
-// @ts-nocheck;
-
 "use client";
 
 import { useGetCalls } from "@/hooks/useGetCalls";
@@ -54,6 +52,7 @@ const CallList = ({ type }: { type: "ended" | "upcoming" | "recordings" }) => {
 
         setRecordings(recordings);
       } catch (error) {
+        console.log(error);
         toast("Try again later");
       }
     };
