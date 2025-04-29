@@ -15,6 +15,10 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ---
 
+## Backend Setup
+
+Please refer to the [GenASL](https://github.com/aws-samples/genai-asl-avatar-generator.git) repository to setup the backend of the project.
+
 ## 🚀 Getting Started
 
 Follow these steps to run the project locally:
